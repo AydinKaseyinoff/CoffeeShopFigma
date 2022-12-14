@@ -72,13 +72,25 @@ button{
   display: flex;
   max-width: 989px;
   margin-left: 350px;
+  margin-top: 100px;
 }
 .best-coffee{
   margin-right: 40px;
+}
+.numberone{
+  color: #C99E71;
 }
 .place-coffee{
   margin-right: 40px;
 }
 .proper-coffee{
   margin-right: 40px;
+}
+.coffee-history{
+  max-width: 989px;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+#place-coffee{
+  margin-bottom: 20px;
 }
