@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #14110E;
+}
+nav{
+  display: flex;
+  background-color: #1C1814;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav li{
+  padding: 25px 25px;
+  list-style-type: none;
+  justify-content: center;
+}
+nav a{
+  color: antiquewhite;
+  text-decoration: none;
+  justify-content: center;
+}
+.logo{
+padding-left: 200px;
+padding-right: 0px;
+margin-right: 290px;
+}
+.search{
+  width: 30px;
+  height: 30px;
+}
+.bag{
+  width: 30px;
+  height: 30px;
+}
+header{
+  background-image: url(/image//header.png);
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  width: 1950px;
+  height: 750px;
+  color: #fff;
+}
+.header-content{
+  max-width: 989px;
+  margin-top: 100px;
+  margin-left: 350px;
+  font-size: 25px;
+}
+button{
+  background-color: #C99E71;
+  padding: 20px 20px ;
+  color: #fff;
+}
+.coffee-menu{
+  max-width: 989px;
+  margin-left: 200px;
+  display: flex;
+  width: 366px;
+  height: 420px;
+}
