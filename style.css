@@ -90,7 +90,29 @@ button{
   max-width: 989px;
   margin-left: 350px;
   margin-top: 40px;
+  display: flex;
+}
+.coffee-line{
+  margin-right: 30px;
 }
 #place-coffee{
   margin-bottom: 20px;
+  width: 265px;
+}
+#best-coffee{
+  width: 265px;
+}
+.content-coffee{
+  margin-left: 30px;
+  background-color: #1C1814;
+}
+.p-coral{
+  color: #C99E71;
+  font-size: 20px;
+}
+.h1-white{
+  color: #fff;
+}
+.p-white{
+  color: #fff;
 }
