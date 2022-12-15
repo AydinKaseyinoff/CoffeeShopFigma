@@ -74,6 +74,9 @@ button{
   margin-left: 350px;
   margin-top: 100px;
 }
+span{
+  color: #C99E71;
+}
 .best-coffee{
   margin-right: 40px;
 }
@@ -117,4 +120,18 @@ button{
 }
 .p-white{
   color: rgba(255, 255, 255, 0.603);
+}
+.box-gred{
+  background-color: #121315;
+}
+.product-line{
+  display: flex;
+  max-width: 1500px;
+  margin-left: 350px;
+}
+.price-320{
+  background-color: #121315;
+}
+.price-358{
+  background-color: #121315;
 }
