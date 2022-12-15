@@ -104,7 +104,7 @@ button{
 }
 .content-coffee{
   margin-left: 30px;
-  padding: 50px;
+  padding: 30px;
   background-color: #1C1814;
 }
 .p-coral{
@@ -113,8 +113,8 @@ button{
 }
 .h1-white{
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
 }
 .p-white{
-  color: #fff;
+  color: rgba(255, 255, 255, 0.603);
 }
