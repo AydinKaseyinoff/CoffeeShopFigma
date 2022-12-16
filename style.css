@@ -75,7 +75,7 @@ button{
   font-size: 20px;
   color: #fff;
 }
-.coffee-menu{
+.three-coffee{
   display: flex;
   max-width: 989px;
   margin-left: 350px;
@@ -163,6 +163,7 @@ span{
 }
 .under-product{
   margin-top: 50px;
+  margin-bottom: 130px;
   font-size: 25px;
   padding: 20px 40px;
 }
@@ -170,6 +171,7 @@ span{
   display: flex;
   max-width: 1180px;
   margin-left: 350px;
+  padding-bottom: 100px;
   background-color: #1C1814;
 }
 .machin-img{
@@ -180,4 +182,9 @@ span{
 .h1-white, h1-machin{
   padding-top: 50px;
   font-size: 55px;
+}
+.h1center-menu{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
 }
