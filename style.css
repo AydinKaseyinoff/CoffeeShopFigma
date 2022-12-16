@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@700&display=swap');
+
+
 body{
   margin: 0;
   padding: 0;
@@ -77,6 +81,9 @@ button{
 span{
   color: #C99E71;
 }
+.h2-white{
+  color: #fff;
+}
 .best-coffee{
   margin-right: 40px;
 }
@@ -90,7 +97,7 @@ span{
   margin-right: 40px;
 }
 .coffee-history{
-  max-width: 989px;
+  max-width: 1180px;
   margin-left: 350px;
   margin-top: 40px;
   display: flex;
@@ -114,20 +121,36 @@ span{
   color: #C99E71;
   font-size: 20px;
 }
+.center-coral{
+  color: #C99E71;
+  text-align: center;
+  margin-top: 120px;
+}
 .h1-white{
   color: #fff;
   font-size: 40px;
 }
 .p-white{
   color: rgba(255, 255, 255, 0.603);
+  font-size: 25px;
 }
 .box-gred{
   background-color: #121315;
 }
+.coffee-bag{
+  margin-right: 100px;
+}
+.coffee-bag2{
+  margin-right: 100px;
+}
 .product-line{
   display: flex;
-  max-width: 1500px;
   margin-left: 350px;
+}
+.coffee-product{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
 }
 .price-320{
   background-color: #121315;
