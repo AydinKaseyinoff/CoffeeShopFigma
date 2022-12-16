@@ -14,7 +14,7 @@ nav{
   display: flex;
   background-color: #1C1814;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   font-size: 20px;
 }
 nav ul{
@@ -25,11 +25,13 @@ nav li{
   padding: 25px 25px;
   list-style-type: none;
   justify-content: center;
+  align-items: baseline;
 }
 nav a{
   color: antiquewhite;
   text-decoration: none;
   justify-content: center;
+  align-items: baseline;
 }
 .logo{
 padding-left: 200px;
@@ -39,6 +41,7 @@ margin-right: 290px;
 .search{
   width: 30px;
   height: 30px;
+  margin-top: 25px;
 }
 .bag{
   width: 30px;
@@ -157,4 +160,24 @@ span{
 }
 .price-358{
   background-color: #121315;
+}
+.under-product{
+  margin-top: 50px;
+  font-size: 25px;
+  padding: 20px 40px;
+}
+.coffee-machin{
+  display: flex;
+  max-width: 1180px;
+  margin-left: 350px;
+  background-color: #1C1814;
+}
+.machin-img{
+  margin-top: 80px;
+  margin-left: 160px;
+  padding-right: 140px;
+}
+.h1-white, h1-machin{
+  padding-top: 50px;
+  font-size: 55px;
 }
