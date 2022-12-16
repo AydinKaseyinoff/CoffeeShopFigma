@@ -186,5 +186,69 @@ span{
 .h1center-menu{
   text-align: center;
   color: #fff;
+  margin-bottom: 50px;
   font-size: 40px;
+}
+.menu-list{
+  display: flex;
+  max-width: 1180px;
+  margin-left: 350px;
+}
+.list-1{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.list-2{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.list-3{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.list-4{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.left-list-1{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.left-list-2{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.left-list-3{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.left-list-4{
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.menu-img{
+  padding-right: 20px;
+}
+#h1-white{
+  color: #fff;
 }
