@@ -277,3 +277,41 @@ span{
   color: #C99E71;
   margin-left: 350px;
 }
+.table{
+  display: flex;
+  background-color:  #1C1814;
+  max-width: 1180px;
+  margin-left: 350px;
+}
+#p-table{
+  left: 1891px;
+  flex-direction: center;
+}
+.block-booking{
+  background-color:  #14110E;
+}
+.news-box{
+  display: flex;
+  max-width: 1180px;
+  margin-left: 350px;
+  background-color: #1C1814;
+}
+.news-data{
+  display: flex;
+  align-items: baseline;
+}
+.button{
+  align-items: baseline;
+}
+.footer-nav{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+}
+.footer-nav ul, li{
+  display: flex;
+  padding: 25px 25px;
+  color: antiquewhite;
+  text-decoration: none;
+  justify-content: center;
+  align-items: baseline;
+}
