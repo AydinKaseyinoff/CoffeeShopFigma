@@ -2,13 +2,16 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
 
 
 body{
   margin: 0;
   padding: 0;
   background-color: #14110E;
+  font-family: 'Lora', serif;
+  font-weight: 600;
 }
 nav{
   display: flex;
@@ -69,11 +72,36 @@ header{
   font-size: 25px;
   color: rgba(255, 255, 255, 0.704);
 }
-button{
+.header-button{
   background-color: #C99E71;
   padding: 20px 20px ;
   font-size: 20px;
   color: #fff;
+}
+.discover{
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #C99E71;
+  color: #fff;
+}
+.table-button{
+  background: #C99E71; 
+}
+.cart-button{
+  background: #C99E71;
+  color: #fff;
+}
+.under-product{
+  margin-top: 50px;
+  margin-bottom: 130px;
+  background: #C99E71;
+  color: #fff;
+  font-size: 25px;
+  padding: 20px 40px;
+}
+.booking{
+  max-width: 500px;
 }
 .three-coffee{
   display: flex;
@@ -135,16 +163,11 @@ span{
 }
 .p-white{
   color: rgba(255, 255, 255, 0.603);
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .box-gred{
   background-color: #121315;
-}
-.coffee-bag{
-  margin-right: 100px;
-}
-.coffee-bag2{
-  margin-right: 100px;
 }
 .product-line{
   display: flex;
@@ -161,12 +184,6 @@ span{
 .price-358{
   background-color: #121315;
 }
-.under-product{
-  margin-top: 50px;
-  margin-bottom: 130px;
-  font-size: 25px;
-  padding: 20px 40px;
-}
 .coffee-machin{
   display: flex;
   max-width: 1180px;
@@ -181,7 +198,7 @@ span{
 }
 .h1-white, h1-machin{
   padding-top: 50px;
-  font-size: 55px;
+  font-size: 48px;
 }
 .h1center-menu{
   text-align: center;
@@ -266,7 +283,9 @@ span{
   flex-wrap: wrap;
 }
 .wrap{
+  /*
   flex-wrap: wrap;
+  */
 }
 .right-coment{
   display: flex;
@@ -298,9 +317,6 @@ span{
 }
 .news-data{
   display: flex;
-  align-items: baseline;
-}
-.button{
   align-items: baseline;
 }
 .footer-nav{
