@@ -49,14 +49,23 @@ margin-right: 290px;
 .bag{
   width: 30px;
   height: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 header{
   background-image: url(/image//header.png);
   background-repeat: no-repeat;
+  object-fit: cover;
   padding-top: 1px;
   width: 1900px;
+  object-fit: cover;
   height: 888px;
   color: #fff;
+}
+@media screen and (min-width: 1080px) {
+   header{
+    width: 1080px;
+   }
 }
 .header-content{
   max-width: 989px;
@@ -151,6 +160,13 @@ span{
 .p-coral{
   color: #C99E71;
   font-size: 20px;
+}
+.link a img{
+  color: #C99E71;
+  text-decoration: none;
+}
+.link{
+  align-items: baseline;
 }
 .center-coral{
   color: #C99E71;
