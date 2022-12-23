@@ -62,9 +62,9 @@ header{
   height: 888px;
   color: #fff;
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 2340px) {
    header{
-    width: 1080px;
+    width: 108px;
    }
 }
 .header-content{
@@ -293,7 +293,7 @@ span{
 .left-coment{
   display: flex;
   background-color: #1C1814;
-  padding: 20px;
+  
 }
 #p-wrap{
   flex-wrap: wrap;
@@ -306,7 +306,7 @@ span{
 .right-coment{
   display: flex;
   background-color: #1C1814;
-  padding: 20px;
+  margin-right: 46px
 }
 .h1-coral{
   color: #C99E71;
