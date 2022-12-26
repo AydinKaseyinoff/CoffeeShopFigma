@@ -86,7 +86,7 @@ header{
 }
 @media screen and (orientation: portrait), screen and (max-width: 768px){
   .header-text{
-    font-size: 15px;
+    font-size: 35px;
   }
 }
 .header-paragraph{
