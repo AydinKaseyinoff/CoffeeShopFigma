@@ -84,6 +84,11 @@ header{
 .header-text{
   font-size: 90px;
 }
+@media screen and (orientation: portrait), screen and (max-width: 768px){
+  .header-text{
+    font-size: 15px;
+  }
+}
 .header-paragraph{
   font-size: 25px;
   color: rgba(255, 255, 255, 0.704);
@@ -196,10 +201,6 @@ span{
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-@media screen and (orientation: portrait), screen and (max-width: 980px){
-  .container
-    
 }
 .container{
   display: flex;
@@ -362,4 +363,12 @@ span{
   text-decoration: none;
   justify-content: center;
   align-items: baseline;
+}
+.footer-nav a{
+  color: #fff;
+  text-decoration: none;
+}
+.button-search{
+  border-radius: 100px;
+  background-color: #1C1814;
 }
