@@ -62,11 +62,6 @@ header{
   height: 888px;
   color: #fff;
 }
-@media screen and (min-width: 2340px) {
-   header{
-    width: 108px;
-   }
-}
 .header-content{
   max-width: 989px;
   margin-left: 350px;
@@ -187,7 +182,16 @@ span{
 }
 .product-line{
   display: flex;
-  margin-left: 350px;
+  width: 100%;
+  justify-content: space-around;
+}
+@media screen and (orientation: portrait), screen and (max-width: 980px){
+  .container
+    
+}
+.container{
+  display: flex;
+  max-width: 1180px;
 }
 .coffee-product{
   color: #fff;
