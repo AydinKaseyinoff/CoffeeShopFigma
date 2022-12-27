@@ -37,9 +37,7 @@ nav a{
   align-items: baseline;
 }
 .logo{
-padding-left: 200px;
-padding-right: 0px;
-margin-right: 290px;
+  !
 }
 .search{
   width: 30px;
@@ -82,12 +80,7 @@ header{
   }
 }
 .header-text{
-  font-size: 90px;
-}
-@media screen and (orientation: portrait), screen and (max-width: 768px){
-  .header-text{
-    font-size: 35px;
-  }
+  font-size: 500%;
 }
 .header-paragraph{
   font-size: 25px;
@@ -97,6 +90,10 @@ header{
   .header-paragraph{
     font-size: 15px;
   }
+}
+main{
+  width: 100%;
+  margin: 0 auto;
 }
 .coffee-three{
   width: 33;
