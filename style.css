@@ -140,6 +140,7 @@ main{
   .three-coffee{
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 20px;
   }
 }
 span{
