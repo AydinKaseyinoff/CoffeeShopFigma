@@ -327,6 +327,7 @@ span{
 .coment{
   display: flex;
   max-width: 1180px;
+  flex-wrap: wrap;
   margin-left: 350px;
 }
 .left-coment{
