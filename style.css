@@ -80,7 +80,7 @@ header{
   }
 }
 .header-text{
-  font-size: 500%;
+  font-size: 90px;
 }
 .header-paragraph{
   font-size: 25px;
@@ -132,6 +132,7 @@ main{
 }
 .three-coffee{
   display: flex;
+  margin: 0 auto;
   /*flex-wrap: wrap;
   max-width: 989px;
   margin-left: 350px;
