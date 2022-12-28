@@ -38,7 +38,7 @@ nav a{
   align-items: baseline;
 }
 .logo{
-  !
+  
 }
 .search{
   width: 30px;
@@ -62,12 +62,12 @@ header{
   height: 888px;
   color: #fff;
 }
-@media screen and (orientation: portrait), screen and (max-width: 768px){
+/*@media screen and (orientation: portrait), screen and (max-width: 768px){
   header{
     height: 764px;
     width: 752px;
   }
-}
+}*/
 .header-content{
   max-width: 989px;
   margin-left: 350px;
