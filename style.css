@@ -359,6 +359,7 @@ span{
   display: flex;
   max-width: 1180px;
   margin-left: 350px;
+  padding-left: 20px;
   background-color: #1C1814;
 }
 .news-data{
