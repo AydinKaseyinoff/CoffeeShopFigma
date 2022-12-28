@@ -136,6 +136,11 @@ main{
   overflow: hidden;
   position: relative;
 }
+@media screen and (orientation: portrait), screen and (max-width: 890px){
+  .three-coffee{
+    flex-wrap: wrap;
+  }
+}
 span{
   color: #C99E71;
 }
