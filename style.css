@@ -165,8 +165,14 @@ span{
 }
 .coffee-history{
   max-width: 1180px;
-  margin-left: 350px;
+  
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+  flex-direction: column-reverse;
+  overflow: hidden;
   display: flex;
 }
 .coffee-line{
