@@ -140,7 +140,7 @@ main{
 }
 @media screen and (orientation: portrait), screen and (max-width: 890px){
   .three-coffee{
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: center;
     margin-left: 20px;
   }
@@ -165,22 +165,31 @@ span{
 }
 .coffee-history{
   max-width: 1180px;
-  
   margin-top: 40px;
   display: flex;
   justify-content: center;
   position: relative;
   margin-top: 40px;
-  flex-direction: column-reverse;
   overflow: hidden;
   display: flex;
+}
+@media screen and (orientation: portrait), screen and (max-width: 890px){
+  .coffee-history{
+    flex-direction: column-reverse;
+  }
 }
 .coffee-line{
   margin-right: 30px;
 }
 #place-coffee{
-  margin-bottom: 20px;
+  /*max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  */
   width: 265px;
+  margin-bottom: 20px;
 }
 #best-coffee{
   width: 265px;
