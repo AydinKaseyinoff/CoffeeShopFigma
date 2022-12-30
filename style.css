@@ -176,6 +176,8 @@ span{
 @media screen and (orientation: portrait), screen and (max-width: 890px){
   .coffee-history{
     flex-direction: column-reverse;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 .coffee-line{
