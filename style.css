@@ -277,10 +277,17 @@ span{
   margin-bottom: 50px;
   font-size: 40px;
 }
+.coffee-menu{
+  justify-content: center;
+}
 .menu-list{
   display: flex;
   max-width: 1180px;
-  margin-left: 350px;
+  top: 20px;
+  flex-wrap: wrap;
+  position: relative;
+  left: 18%;
+  justify-content: center;
 }
 .list-1{
   display: flex;
