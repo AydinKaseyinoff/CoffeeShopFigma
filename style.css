@@ -387,7 +387,6 @@ span{
 .news-box{
   display: flex;
   max-width: 1180px;
-  padding-left: 20px;
   background-color: #1C1814;
 }
 @media screen and (orientation: portrait), screen and (max-width: 890px){
