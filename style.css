@@ -394,7 +394,6 @@ span{
   .news-box{
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 20px;
   }
 }
 .news-img{
