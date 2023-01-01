@@ -369,6 +369,8 @@ span{
 }
 .h1-coral{
   color: #C99E71;
+  left: 10%;
+  position: relative;
 }
 .table{
   display: flex;
