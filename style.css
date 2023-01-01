@@ -266,8 +266,6 @@ span{
 }
 .machin-img{
   margin-top: 80px;
-  width: 100%;
-  height: auto;
   margin-left: 160px;
   padding-right: 140px;
 }
@@ -417,6 +415,7 @@ span{
 .footer-nav{
   display: flex;
   background-color: rgba(255, 255, 255, 0);
+  flex-wrap: wrap;
 }
 .footer-nav ul, li{
   display: flex;
