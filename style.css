@@ -375,6 +375,7 @@ span{
 }
 .table{
   display: flex;
+  flex-wrap: wrap;
   background-color:  #1C1814;
   max-width: 1180px;
   margin-left: 350px;
