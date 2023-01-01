@@ -183,6 +183,7 @@ span{
 .coffee-line{
   margin-right: 30px;
 }
+
 #place-coffee{
   /*max-width: 100%;
   height: auto;
@@ -369,8 +370,8 @@ span{
 }
 .h1-coral{
   color: #C99E71;
-  left: 20%;
-  position: relative;
+ /*left: 20%;
+  position: relative;*/
 }
 .table{
   display: flex;
