@@ -378,6 +378,11 @@ span{
   background-color:  #1C1814;
   max-width: 1180px;
   margin-left: 350px;
+  
+}
+.table-map{
+  width: 100%;
+  height: auto;
 }
 #p-table{
   left: 1891px;
