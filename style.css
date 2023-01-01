@@ -259,12 +259,15 @@ span{
 .coffee-machin{
   display: flex;
   max-width: 1180px;
-  margin-left: 350px;
+  flex-wrap: wrap;
+  margin-right: 20px;
   padding-bottom: 100px;
   background-color: #1C1814;
 }
 .machin-img{
   margin-top: 80px;
+  width: 100%;
+  height: auto;
   margin-left: 160px;
   padding-right: 140px;
 }
