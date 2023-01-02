@@ -417,6 +417,10 @@ span{
   background-color: rgba(255, 255, 255, 0);
   flex-wrap: wrap;
 }
+.logo{
+  width: 100%;
+  flex: 0 0 60px;
+}
 .footer-nav ul, li{
   display: flex;
   padding: 25px 25px;
