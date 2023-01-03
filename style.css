@@ -59,6 +59,7 @@ header{
   object-fit: cover;
   height: 888px;
   color: #fff;
+  transition: all 500ms;
 }
 .header-content{
   padding: 2rem 18%;
@@ -89,6 +90,11 @@ header{
   }
   header{
     height: 600px;
+    background-position: right;
+  }
+  #header-button{
+    padding: 12px 12px;
+    font-size: 12px;
   }
 }
 @media (max-width: 991px){
