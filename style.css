@@ -75,7 +75,7 @@ header{
 .header-paragraph{
   font-size: 25px;
   color: rgba(255, 255, 255, 0.704);
-
+  transition: all 300ms;
 }
 @media screen and (orientation: portrait), screen and (max-width: 768px){
   .header-paragraph{
