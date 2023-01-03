@@ -48,6 +48,7 @@ nav a{
 header{
   background-image: url(/image//header.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   object-fit: cover;
   padding-top: 1px;
