@@ -80,15 +80,22 @@ header{
   color: rgba(255, 255, 255, 0.704);
   transition: all 300ms;
 }
-@media screen and (orientation: portrait), screen and (max-width: 468px){
+@media (max-width: 768px){
   .header-paragraph{
     font-size: 15px;
   }
-  .header-text{
+  #header-text{
     font-size: 50px;
   }
 }
-
+@media (max-width: 991px){
+  .header-paragraph{
+    font-size: 20px;
+  }
+  .header-text{
+    font-size: 70px;
+  }
+}
 main{
   width: 100%;
   margin: 0 auto;
