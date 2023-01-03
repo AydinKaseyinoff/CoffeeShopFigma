@@ -87,6 +87,9 @@ header{
   #header-text{
     font-size: 50px;
   }
+  header{
+    height: 600px;
+  }
 }
 @media (max-width: 991px){
   .header-paragraph{
