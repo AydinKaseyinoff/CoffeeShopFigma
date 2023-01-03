@@ -80,8 +80,8 @@ header{
   color: rgba(255, 255, 255, 0.704);
   transition: all 300ms;
 }
-@media (max-width: 768px){
-  .header-paragraph{
+@media (max-width: 490px){
+  #header-paragraph{
     font-size: 15px;
   }
   #header-text{
