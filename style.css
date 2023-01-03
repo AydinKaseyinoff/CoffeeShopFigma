@@ -34,6 +34,11 @@ nav li{
   justify-content: center;
   align-items: baseline;
 }
+@media (max-width: 490px){
+  #nav-li{
+    padding: 10px 10px;
+  }
+}
 nav a{
   color: antiquewhite;
   text-decoration: none;
