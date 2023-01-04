@@ -6,10 +6,17 @@ body{
     padding: 0;
 }
 header{
-    display: flex;
+    background-color: #1C1814;;
     align-items: center;
+    justify-content: space-between;
 }
 .navbar{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
 }
