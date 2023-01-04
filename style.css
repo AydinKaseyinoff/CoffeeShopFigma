@@ -4,9 +4,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #14110E;;
+}
+html{
+    transition: all 700ms;
 }
 section{
     padding-left: 350px;
+    padding-right: 350px;
 }
 
 header{
@@ -56,5 +61,9 @@ header{
     color: #fff;
     background: #C99E71;
     cursor: pointer;
+}
+.three-coffee{
+    display: flex;
+    justify-content: space-between;
 }
 
