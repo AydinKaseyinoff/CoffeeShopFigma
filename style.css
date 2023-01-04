@@ -20,3 +20,7 @@ header{
     color: #fff;
     text-decoration: none;
 }
+.home{
+    background-image: url(/image/header.png);
+    min-height: 100vh;
+}
