@@ -72,4 +72,10 @@ header{
 .coffee-line{
     margin-right: 20px;
 }
+.coffee-product{
+    flex-wrap: wrap;
+}
+.product{
+    display: flex;
+}
 
