@@ -157,4 +157,25 @@ header{
 .booking-list img{
     margin-bottom: 20px;
 }
+.news-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news-box{
+    display: flex;
+    justify-content: space-between;
+}
+.news-content{
+    background-color: #1C1814;
+}
+.footer-navbar{
+    display: flex;
+    align-items: center;
+}
+.footer-navbar a{
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
 
