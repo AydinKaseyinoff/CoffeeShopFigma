@@ -145,6 +145,9 @@ header{
 .booking{
     display: flex;
 }
+.booking a{
+    margin-left: 90px;
+}
 .booking-content{
     background-color: 
     #1C1814;
