@@ -126,4 +126,9 @@ header{
 .box{
     display: flex;
 }
+.coment{
+    background-color: #1C1814;
+    display: flex;
+}
+
 
