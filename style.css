@@ -75,7 +75,20 @@ header{
 .coffee-product{
     flex-wrap: wrap;
 }
+.coffee-content{
+    background-color: 
+    #1C1814;
+}
 .product{
     display: flex;
+    justify-content: space-between;
 }
+.coffee-machin{
+    display: flex;
+}
+.machin-content{
+    background-color: 
+    #1C1814;
+}
+
 
