@@ -98,5 +98,27 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+.menu-flex .menu1{
+    width: 49%;
+    display: flex;
+    border: 1px solid #32323D;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.menu img{
+    width: 100px;
+    margin-right: 10px;
+}
+.menu h4{
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+.menu .line{
+    margin-top: 10px;
+    border-top: 1px dotted white;
+    width: 50px;
+}
 
