@@ -142,4 +142,12 @@ header{
 .box-content h2{
     font-size: 20px;
 }
+.booking{
+    display: flex;
+}
+.booking-content{
+    background-color: 
+    #1C1814;
+    width: 100%;
+}
 
