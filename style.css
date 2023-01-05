@@ -68,6 +68,7 @@ header{
 }
 .coffee-history{
     display: flex;
+    padding-top: 115px;
 }
 .coffee-line{
     margin-right: 20px;
