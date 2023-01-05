@@ -83,6 +83,8 @@ header{
 .product{
     display: flex;
     justify-content: space-between;
+    padding: 70px;
+    background-color: #121315;
 }
 .coffee-machin{
     display: flex;
