@@ -130,10 +130,12 @@ header{
     background-color: #1C1814;
     display: flex;
     margin-right: 20px;
+    padding: 35px;
 }
 .coment{
     background-color: #1C1814;
     display: flex;
+    padding: 35px;
 }
 .box-content h2{
     font-size: 20px;
