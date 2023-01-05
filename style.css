@@ -130,5 +130,7 @@ header{
     background-color: #1C1814;
     display: flex;
 }
-
+.box-content h2{
+    font-size: 20px;
+}
 
