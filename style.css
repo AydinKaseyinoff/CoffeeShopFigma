@@ -116,10 +116,14 @@ header{
 .menu h4{
     text-transform: capitalize;
     letter-spacing: -1px;
+    white-space: nowrap;
 }
 .menu .line{
     margin-top: 10px;
     border-top: 1px dotted white;
     width: 50px;
+}
+.box{
+    display: flex;
 }
 
