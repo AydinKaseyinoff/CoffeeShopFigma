@@ -114,7 +114,6 @@ header{
 .three-coffee{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .coffee-three{
     margin-right: 20px;
@@ -221,6 +220,7 @@ header{
 }
 .booking{
     display: flex;
+    justify-content: center;
 }
 .booking a{
     margin-left: 90px;
@@ -241,8 +241,8 @@ header{
 }
 .news-box{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+}    
 .news-content{
     background-color: #1C1814;
 }
