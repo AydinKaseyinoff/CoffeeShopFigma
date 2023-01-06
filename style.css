@@ -109,6 +109,7 @@ header{
 .coffee-content{
     background-color: 
     #1C1814;
+    padding: 60px;
 }
 .product{
     display: flex;
