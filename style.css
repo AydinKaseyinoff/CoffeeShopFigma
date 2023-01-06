@@ -201,6 +201,12 @@ header{
     margin: 0 1rem;
     color: #fff;
     text-decoration: none;
+    transition: all 300ms;
+}
+.footer-navbar a:hover{
+    color: #C99E71;
+    border-bottom: .1rem solid #C99E71;
+    padding-bottom: .5rem;
 }
 .link{
     align-items: center;
