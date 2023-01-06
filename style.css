@@ -114,6 +114,7 @@ header{
 .three-coffee{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .coffee-three{
     margin-right: 20px;
@@ -148,7 +149,7 @@ header{
 }
 .product{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 70px;
 }
 .popular-product{
