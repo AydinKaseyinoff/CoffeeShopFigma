@@ -27,7 +27,12 @@ header{
 .header .navbar a{
     margin: 0 1rem;
     color: #fff;
+    font-size: 20px;
     text-decoration: none;
+}
+.logo{
+    margin-left: 130px;
+    margin-right: 130px;
 }
 .home{
     background-image: url(/image/header.png);
