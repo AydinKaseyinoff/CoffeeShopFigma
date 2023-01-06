@@ -115,6 +115,15 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.coffee-three{
+    margin-right: 20px;
+}
+.coffee-three img{
+    width: 100%;
+}
+.coffee-three-end img{
+    width: 100%;
+}
 .coffee-history{
     display: flex;
     padding-top: 115px;
