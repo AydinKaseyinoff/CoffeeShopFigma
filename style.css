@@ -62,14 +62,33 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: all 700ms;
+}
+@media (max-width: 600px){
+    .home{
+        background-position: right;
+        min-width: 50vh;
+        padding-left: 20px;
+    }
 }
 .home .content{
     max-width: 50rem;
     padding-top: 50px;
 }
+@media (max-width: 600px){
+    .home .content{ 
+         padding-left: 50px;
+    }
+}
 .home .content h1{
     font-size: 90px;
     color: #fff;
+    transition: all 700ms;
+}
+@media (max-width: 600px){
+    .home .content h1{
+        font-size: 40px;
+    }
 }
 .home .content p{
     font-size: 20px;
