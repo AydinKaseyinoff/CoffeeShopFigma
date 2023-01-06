@@ -30,6 +30,11 @@ header{
     font-size: 20px;
     text-decoration: none;
 }
+.header .navbar a:hover{
+    color: #C99E71;
+    border-bottom: .1rem solid #C99E71;
+    padding-bottom: .5rem;
+}
 .logo{
     margin-left: 130px;
     margin-right: 130px;
