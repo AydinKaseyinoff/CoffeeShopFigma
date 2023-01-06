@@ -203,6 +203,7 @@ header{
 }
 .box{
     display: flex;
+    justify-content: center;
 }
 .coment-right{
     background-color: #1C1814;
