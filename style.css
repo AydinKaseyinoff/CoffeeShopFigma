@@ -103,6 +103,9 @@ header{
 .coffee-line{
     margin-right: 20px;
 }
+.coffee-line img{
+    width: 250%;
+}
 .coffee-product{
     flex-wrap: wrap;
 }
@@ -110,6 +113,10 @@ header{
     background-color: 
     #1C1814;
     padding: 60px;
+    height: 635px;
+}
+.slide{
+    justify-content: space-between;
 }
 .product{
     display: flex;
