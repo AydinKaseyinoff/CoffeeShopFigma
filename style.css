@@ -29,6 +29,7 @@ header{
     color: #fff;
     font-size: 20px;
     text-decoration: none;
+    transition: all 300ms;
 }
 .header .navbar a:hover{
     color: #C99E71;
