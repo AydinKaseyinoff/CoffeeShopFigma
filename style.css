@@ -61,6 +61,10 @@ header{
     color: #fff;
     background: #C99E71;
     cursor: pointer;
+    transition: all 500ms;
+}
+.btn:hover{
+    letter-spacing: .2rem;
 }
 .three-coffee{
     display: flex;
