@@ -86,12 +86,19 @@ header{
     padding: 70px;
 }
 .popular-product{
-    background-color: #121315;;
+    background-color: #121315;
+    padding: 50px;
+
 }
 .coffee-machin{
     display: flex;
 }
 .machin-content{
+    background-color: 
+    #1C1814;
+}
+.machin-box{
+    display: flex;
     background-color: 
     #1C1814;
 }
