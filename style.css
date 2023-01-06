@@ -13,8 +13,13 @@ section{
     padding-left: 350px;
     padding-right: 350px;
 }
+.p{
+    font-size: 20px;
+    color: #C99E71;
+}
 .h2{
     font-size: 50px;
+    color: #fff;
 }
 header{
     background-color: #1C1814;;
