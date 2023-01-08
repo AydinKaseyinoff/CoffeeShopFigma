@@ -128,6 +128,7 @@ header{
     .three-coffee{
         width: 100%;
         height: 100%;
+        flex-wrap: wrap;
     }
     section{
         padding-left: 0px;
@@ -173,11 +174,17 @@ header{
     display: flex;
     justify-content: center;
     padding: 70px;
+    flex-wrap: wrap;
 }
 .popular-product{
     background-color: #121315;
     padding: 50px;
-
+    width: 100%;
+    height: 100%;
+}
+.popular-product img{
+    width: 100%;
+    height: 100%;
 }
 .coffee-machin{
     display: flex;
