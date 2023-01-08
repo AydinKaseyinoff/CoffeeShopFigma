@@ -9,9 +9,20 @@ body{
 html{
     transition: all 700ms;
 }
+@media (max-width: 991px){
+html {
+    font-size: 55%;
+}
+}
 section{
     padding-left: 350px;
-    padding-right: 350px;
+    padding-right: 350px;transition: all;
+}
+@media (max-width: 1155px){
+    section{
+        padding-left: 290px;
+        padding-right: 300px;
+    }
 }
 .p{
     font-size: 20px;
@@ -64,11 +75,9 @@ header{
     background-position: center;
     transition: all 700ms;
 }
-@media (max-width: 600px){
+@media (max-width: 1577px){
     .home{
-        background-position: right;
-        min-width: 50vh;
-        padding-left: 20px;
+        padding-left: 340px;
     }
 }
 .home .content{
@@ -85,9 +94,9 @@ header{
     color: #fff;
     transition: all 700ms;
 }
-@media (max-width: 600px){
+@media (max-width: 1577px){
     .home .content h1{
-        font-size: 40px;
+        font-size:80px;
     }
 }
 .home .content p{
@@ -113,16 +122,30 @@ header{
 }
 .three-coffee{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+@media (max-width: 1155px){
+    .three-coffee{
+        width: 100%;
+        height: 100%;
+    }
+    section{
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
 }
 .coffee-three{
     margin-right: 20px;
 }
-.coffee-three img{
-    width: 100%;
-}
-.coffee-three-end img{
-    width: 100%;
+@media (max-width: 1155px){
+    .coffee-three img{
+        width: 100%;
+        height: 100%;
+    }
+    .coffee-three-end img{
+        width: 100%;
+        height: 100%;
+    }
 }
 .coffee-history{
     display: flex;
