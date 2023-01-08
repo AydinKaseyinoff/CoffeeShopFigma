@@ -52,6 +52,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .header .navbar a{
     margin: 0 1rem;
@@ -157,12 +158,10 @@ header{
 .coffee-history{
     display: flex;
     padding-top: 115px;
+    flex-wrap: wrap;
 }
 .coffee-line{
     margin-right: 20px;
-}
-.coffee-line img{
-    width: 250%;
 }
 .coffee-product{
     flex-wrap: wrap;
