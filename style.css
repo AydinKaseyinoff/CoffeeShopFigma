@@ -78,9 +78,10 @@ header{
     background-position: center;
     transition: all 700ms;
 }
-@media (max-width: 1577px){
+@media (max-width: 1450px){
     .home{
-        padding-left: 340px;
+        padding-left: 20px;
+        background-position: right;
     }
 }
 .home .content{
@@ -99,7 +100,7 @@ header{
 }
 @media (max-width: 1577px){
     .home .content h1{
-        font-size:80px;
+        font-size:70px;
     }
 }
 .home .content p{
