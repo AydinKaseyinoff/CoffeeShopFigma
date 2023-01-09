@@ -301,6 +301,7 @@ header{
 .news-box{
     display: flex;
     justify-content: center;
+    align-items: center;
 }    
 .news-content{
     background-color: #1C1814;
