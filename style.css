@@ -240,6 +240,11 @@ header{
     display: flex;
     justify-content: center;
 }
+@media (max-width: 559px){
+    .box{
+        flex-wrap: wrap;
+    }
+}
 .coment-right{
     background-color: #1C1814;
     display: flex;
