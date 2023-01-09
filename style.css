@@ -256,6 +256,7 @@ header{
     background-color: #1C1814;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 20px;
     padding: 35px;
 }
 .box-content h2{
