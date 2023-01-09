@@ -172,7 +172,6 @@ header{
     #1C1814;
     border: 2px solid rgb(18, 10, 2);
     padding: 60px;
-    margin-left: 20px;
     height: 635px;
 }
 .slide{
@@ -214,6 +213,9 @@ header{
     .coffee-history{
         flex-direction: column-reverse;
         
+    }
+    .coffee-content{
+        margin-left: 20px;
     }
 }
 .menu-flex{
