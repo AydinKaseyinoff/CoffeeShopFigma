@@ -160,6 +160,7 @@ header{
     display: flex;
     padding-top: 115px;
     flex-wrap: wrap;
+    align-items: center;
 }
 .coffee-line{
     margin-right: 20px;
