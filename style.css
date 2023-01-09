@@ -211,6 +211,10 @@ header{
         flex-direction: column;
         align-items: center;
     }
+    .coffee-history{
+        flex-direction: column-reverse;
+        
+    }
 }
 .menu-flex{
     width: 90%;
