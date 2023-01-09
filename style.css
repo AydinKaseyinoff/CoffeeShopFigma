@@ -204,6 +204,13 @@ header{
     background-color: 
     #1C1814;
 }
+@media (max-width: 759px){
+    .machin-box{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+}
 .menu-flex{
     width: 90%;
     margin: 0px auto;
