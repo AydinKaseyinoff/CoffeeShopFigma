@@ -128,6 +128,7 @@ header{
 .three-coffee{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 @media (max-width: 1155px){
     .three-coffee{
