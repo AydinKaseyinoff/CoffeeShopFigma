@@ -109,6 +109,7 @@ header{
 @media (max-width: 700px){
     #home{
         padding-left: 20px;
+        background-position: right;
     }
     .home .content h1{
         font-size: 50px;
