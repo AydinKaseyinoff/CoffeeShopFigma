@@ -340,6 +340,9 @@ header{
     justify-content: center;
     align-items: center;
 }    
+#news-box{
+    justify-content: space-around;
+}
 .news-content{
     background-color: #1C1814;
 }
