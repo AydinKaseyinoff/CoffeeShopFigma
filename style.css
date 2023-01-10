@@ -82,7 +82,6 @@ header{
 @media (max-width: 1450px){
     .home{
         padding-left: 20px;
-        background-position: right;
     }
 }
 .home .content{
@@ -102,6 +101,17 @@ header{
 @media (max-width: 1577px){
     .home .content h1{
         font-size:70px;
+    }
+    .home{
+        padding-left: 230px;
+    }
+}
+@media (max-width: 700px){
+    #home{
+        padding-left: 20px;
+    }
+    .home .content h1{
+        font-size: 50px;
     }
 }
 .home .content p{
@@ -164,6 +174,10 @@ header{
 }
 .coffee-line{
     margin-right: 20px;
+    max-width: 100%;
+}
+.coffee-line img{
+    max-width: 100%;
 }
 .coffee-product{
     flex-wrap: wrap;
@@ -218,6 +232,9 @@ header{
     .coffee-content{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .home{
+        background-position: right;
     }
 }
 .menu-flex{
