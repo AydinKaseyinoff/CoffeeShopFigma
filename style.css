@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    transition: all 500ms;
+
 }
 body{
     margin: 0;
@@ -153,8 +155,8 @@ header{
     }   
 }
 .coffee-three{
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 40px;
 }
 @media (max-width: 1155px){
