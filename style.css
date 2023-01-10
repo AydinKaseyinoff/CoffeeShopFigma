@@ -307,6 +307,7 @@ header{
 @media (max-width: 1300px){
     .booking{
         flex-wrap: wrap;
+        margin: 20px;
     }
 }
 .booking img{
