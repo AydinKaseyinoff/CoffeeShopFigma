@@ -242,7 +242,6 @@ header{
     }
 }
 .menu-flex{
-    width: 90%;
     margin: 0px auto;
     display: flex;
     align-items: center;
