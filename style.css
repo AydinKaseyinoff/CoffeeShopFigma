@@ -276,6 +276,9 @@ header{
     .box{
         flex-wrap: wrap;
     }
+    .coment-right{
+        margin-bottom: 20px;
+    }
 }
 .coment-right{
     background-color: #1C1814;
