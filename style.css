@@ -207,6 +207,7 @@ header{
 }
 .coffee-machin{
     display: flex;
+    margin-top: 120px;
 }
 .machin-content{
     background-color: 
