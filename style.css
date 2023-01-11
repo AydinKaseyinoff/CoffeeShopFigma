@@ -280,6 +280,9 @@ header{
     .box{
         flex-wrap: wrap;
     }
+    .menu-flex{
+        margin: 20px;
+    }
     .coment-right{
         margin-bottom: 20px;
         border: 1px solid #353a35;
