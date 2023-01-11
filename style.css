@@ -195,6 +195,7 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .popular-product{
     background-color: #121315;
