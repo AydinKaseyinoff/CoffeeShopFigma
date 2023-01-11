@@ -90,11 +90,6 @@ header{
     max-width: 50rem;
     padding-top: 50px;
 }
-@media (max-width: 600px){
-    .home .content{ 
-         padding-left: 50px;
-    }
-}
 .home .content h1{
     font-size: 90px;
     color: #fff;
