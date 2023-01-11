@@ -281,16 +281,17 @@ header{
     .coment-right{
         margin-bottom: 20px;
         border: 1px solid #353a35;
+        margin-left: 20px;
     }
     .coment{
         border: 1px solid #353a35;  
+        margin-right: 20px;
     }
 }
 .coment-right{
     background-color: #1C1814;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
     margin-right: 20px;
     padding: 35px;
 }
@@ -299,7 +300,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
-    margin-right: 20px;
     padding: 35px;
 }
 .box-content h2{
