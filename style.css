@@ -278,6 +278,10 @@ header{
     }
     .coment-right{
         margin-bottom: 20px;
+        border: 1px solid #353a35;
+    }
+    .coment{
+        border: 1px solid #353a35;  
     }
 }
 .coment-right{
