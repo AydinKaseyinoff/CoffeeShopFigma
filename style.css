@@ -107,6 +107,7 @@ header{
     #home{
         padding-left: 20px;
         background-position: right;
+        min-height: 80vh;
     }
     .home .content h1{
         font-size: 50px;
