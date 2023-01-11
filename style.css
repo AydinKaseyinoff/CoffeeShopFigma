@@ -197,6 +197,9 @@ header{
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+#product{
+    justify-content: space-around;
+}
 .popular-product{
     background-color: #121315;
     padding: 50px;
