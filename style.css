@@ -249,6 +249,20 @@ header{
     color: #fff;
     margin-bottom: 20px;
 }
+.menu-flex #menu1-adaptive{
+    display: flex;
+    border: 1px solid #32323D;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+@media (max-width: 559px){
+    #menu1-adaptive{
+        width: 100%;
+    }
+}
 .menu img{
     width: 100px;
     margin-right: 10px;
@@ -270,6 +284,9 @@ header{
 @media (max-width: 559px){
     .box{
         flex-wrap: wrap;
+    }
+    .menu-flex{
+        display: block;
     }
     .news-box{
         flex-wrap: wrap;
