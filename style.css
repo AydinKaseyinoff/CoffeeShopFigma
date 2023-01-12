@@ -271,6 +271,10 @@ header{
     .box{
         flex-wrap: wrap;
     }
+    .news-box{
+        flex-wrap: wrap;
+        margin: 20px;
+    }
     .menu-flex{
         margin: 20px;
     }
