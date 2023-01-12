@@ -1,19 +1,15 @@
 *{
     box-sizing: border-box;
-    transition: all 500ms;
-
+    transition: all 200ms;
 }
 body{
     margin: 0;
     padding: 0;
     background-color: #14110E;;
 }
-html{
-    transition: all 700ms;
-}
 @media (max-width: 991px){
-html {
-    font-size: 55%;
+    html{
+        font-size: 55%;
 }
 }
 section{
@@ -282,6 +278,9 @@ header{
     }
     .menu-flex{
         margin: 20px;
+    }
+    .machin-content{
+        padding: 20px;
     }
     .coment-right{
         margin-bottom: 20px;
