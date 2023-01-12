@@ -351,6 +351,9 @@ header{
 .booking-list img{
     margin-bottom: 20px;
 }
+.news{
+    margin-bottom: 20px;
+}
 .news-data{
     display: flex;
     align-items: center;
@@ -370,6 +373,7 @@ header{
 }
 .news-content{
     background-color: #1C1814;
+    padding: 20px;
 }
 .footer-navbar{
     display: flex;
