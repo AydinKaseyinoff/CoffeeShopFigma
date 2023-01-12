@@ -7,11 +7,6 @@ body{
     padding: 0;
     background-color: #14110E;;
 }
-@media (max-width: 991px){
-    html{
-        font-size: 55%;
-}
-}
 section{
     padding-left: 350px;
     padding-right: 350px;transition: all;
