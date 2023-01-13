@@ -159,14 +159,11 @@ header{
 .coffee-history{
     display: flex;
     padding-top: 115px;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 .coffee-line{
     margin-right: 20px;
-    max-width: 100%;
-}
-.coffee-line img{
     max-width: 100%;
 }
 .coffee-product{
