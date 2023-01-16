@@ -9,7 +9,7 @@ body{
 }
 section{
     padding-left: 350px;
-    padding-right: 350px;transition: all;
+    padding-right: 350px;
 }
 @media (max-width: 1155px){
     section{
@@ -75,6 +75,12 @@ header{
 @media (max-width: 1450px){
     .home{
         padding-left: 20px;
+    }
+}
+@media (max-width: 1666px){
+    section{
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }
 .home .content{
