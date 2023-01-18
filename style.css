@@ -399,6 +399,9 @@ a{
   border-bottom: 0.1rem solid #c99e71;
   padding-bottom: 0.5rem;
 }
+.under{
+  flex-wrap: wrap;
+}
 .link {
   align-items: center;
 }
