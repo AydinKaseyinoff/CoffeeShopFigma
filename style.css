@@ -47,7 +47,11 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
+nav{
+  display: flex;
+}
 .header .navbar a {
+  display: flex;
   margin: 0 1rem;
   color: #fff;
   font-size: 20px;
@@ -58,6 +62,13 @@ header {
   color: #c99e71;
   border-bottom: 0.1rem solid #c99e71;
   padding-bottom: 0.5rem;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
 }
 .logo {
   margin-left: 130px;
