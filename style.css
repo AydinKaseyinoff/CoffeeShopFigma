@@ -63,6 +63,33 @@ nav{
   border-bottom: 0.1rem solid #c99e71;
   padding-bottom: 0.5rem;
 }
+.nav-btn{
+  display: none;
+}
+  @media screen and (max-width:1144px){
+    .nav-btn{
+      font-size: 2em;
+      padding-inline: 10px;
+      padding-bottom: 3px;
+      border: none;
+      background-color: #c99e71;
+      display: block;
+      cursor: pointer;
+    }
+    .nav{
+      display: none;
+    }
+    .nav-btn:hover .nav{
+      display: block;
+      position: absolute;
+      right: 1px;
+      background-color: rgb(30, 28, 28);
+      box-shadow: 3px 3px 10px black;
+    }
+    #adaptive-logo{
+      margin-left: 0px;
+    }
+  }
 ul{
   display: flex;
   list-style-type: none;
