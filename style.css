@@ -87,14 +87,17 @@ nav{
       box-shadow: 3px 3px 10px black;
     }
     #adaptive-logo{
-      margin-left: 0px;
+      margin-left: 0;
+      margin-right: 0;
     }
     .navbar{
       justify-content: space-around;
+      flex-wrap: nowrap;
     }
   }
 ul{
   display: flex;
+  align-items: center;
   list-style-type: none;
 }
 a{
