@@ -66,7 +66,7 @@ nav{
 .nav-btn{
   display: none;
 }
-  @media screen and (max-width:1144px){
+  @media screen and (max-width:1320px){
     .nav-btn{
       font-size: 2em;
       padding-inline: 10px;
@@ -88,6 +88,9 @@ nav{
     }
     #adaptive-logo{
       margin-left: 0px;
+    }
+    .navbar{
+      justify-content: space-around;
     }
   }
 ul{
