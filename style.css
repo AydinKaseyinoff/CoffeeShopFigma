@@ -89,6 +89,7 @@ nav{
     #adaptive-logo{
       margin-left: 0;
       margin-right: 0;
+      width: 100%;
     }
     .navbar{
       justify-content: space-around;
