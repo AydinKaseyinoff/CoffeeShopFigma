@@ -217,6 +217,12 @@ a {
   margin-right: 20px;
   max-width: 100%;
 }
+@media (max-width: 637px){
+    .coffee-line{
+      display: none;
+    }
+}
+
 .coffee-product {
   flex-wrap: wrap;
 }
