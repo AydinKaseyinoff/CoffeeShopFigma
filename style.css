@@ -8,15 +8,22 @@ body {
   background-color: #14110e;
 }
 section {
+  /*
   padding-left: 350px;
   padding-right: 350px;
+  */
 }
-@media (max-width: 1155px) {
+.container {
+  max-width: 1250px;
+  margin: 0px auto;
+}
+/*@media (max-width: 1155px) {
   section {
     padding-left: 290px;
     padding-right: 300px;
   }
 }
+*/
 .p {
   font-size: 20px;
   color: #c99e71;
@@ -121,12 +128,6 @@ a {
     padding-left: 20px;
   }
 }
-@media (max-width: 1666px) {
-  section {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-}
 .home .content {
   max-width: 50rem;
   padding-top: 50px;
@@ -172,7 +173,7 @@ a {
 }
 .three-coffee {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 @media (max-width: 1155px) {
@@ -187,8 +188,6 @@ a {
   }
 }
 .coffee-three {
-  margin-right: 25px;
-  margin-left: 25px;
   margin-bottom: 40px;
 }
 @media (max-width: 1155px) {
@@ -236,13 +235,11 @@ a {
 }
 .product {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-#product {
-  justify-content: space-around;
-}
+
 .popular-product {
   background-color: #121315;
   padding: 50px;
@@ -258,6 +255,7 @@ a {
 }
 .machin-content {
   background-color: #1c1814;
+  padding-left: 235px;
 }
 .machin-box {
   display: flex;
@@ -371,6 +369,9 @@ a {
   margin-left: 20px;
   padding: 35px;
 }
+.slide {
+  display: flex;
+}
 .box-content h2 {
   font-size: 20px;
 }
@@ -410,11 +411,8 @@ a {
 }
 .news-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-#news-box {
-  justify-content: space-around;
 }
 .news-content {
   background-color: #1c1814;
@@ -423,6 +421,8 @@ a {
 .footer-navbar {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .footer-navbar a {
   margin: 0 1rem;
@@ -443,4 +443,12 @@ a {
 }
 .link a {
   color: #c99e71;
+}
+.form-search {
+  display: inline-block;
+  border-bottom: 1px solid;
+}
+.form-search input {
+  all: unset;
+  height: 10%;
 }
