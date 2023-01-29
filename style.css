@@ -24,6 +24,21 @@ section {
   }
 }
 */
+@media (max-width: 980px) {
+  .three-coffee {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .adaptive-center{
+    justify-content: center
+  }
+}
 .p {
   font-size: 20px;
   color: #c99e71;
@@ -173,18 +188,15 @@ a {
 }
 .three-coffee {
   display: flex;
+  margin-top: 100px;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1155px) {
-  .three-coffee {
-    width: 100%;
-    height: 100%;
+@media (max-width:980px){
+  #adaptive-center{
+    justify-content: center;
     flex-wrap: wrap;
-  }
-  section {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 20px;
   }
 }
 .coffee-three {
@@ -222,7 +234,7 @@ a {
   margin-right: 20px;
 }
 .coffee-product {
-  flex-wrap: wrap;
+  margin-top: 100px;
 }
 .coffee-content {
   background-color: #1c1814;
@@ -236,7 +248,6 @@ a {
 .product {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -252,6 +263,7 @@ a {
 .coffee-machin {
   display: flex;
   margin-top: 120px;
+  margin-bottom: 100px;
 }
 .machin-content {
   background-color: #1c1814;
@@ -281,6 +293,7 @@ a {
 }
 .menu-flex {
   margin: 0px auto;
+  margin-bottom: 100px ;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -335,10 +348,6 @@ a {
   .menu-flex {
     display: block;
   }
-  .news-box {
-    flex-wrap: wrap;
-    margin: 20px;
-  }
   .menu-flex {
     margin: 20px;
   }
@@ -371,6 +380,7 @@ a {
 }
 .slide {
   display: flex;
+  margin-bottom: 100px;
 }
 .box-content h2 {
   font-size: 20px;
