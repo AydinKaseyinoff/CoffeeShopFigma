@@ -466,7 +466,12 @@ a {
   flex-wrap: wrap;
 }
 .link {
-  align-items: center;
+  position:relative;
+}
+.link img{
+  position: absolute;
+  left: 80px;
+  top: -4px;
 }
 .link a {
   color: #c99e71;
