@@ -365,11 +365,11 @@ a {
   .coment-right {
     margin-bottom: 20px;
     border: 1px solid #353a35;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   .coment {
     border: 1px solid #353a35;
-    margin-right: 5px;
+    margin-right: 10px;
   }
   .slide{
     padding: 20px;
@@ -378,7 +378,7 @@ a {
 .coment-right {
   background-color: #1c1814;
   display: flex;
-  margin-right: 5px;
+  margin-right: 10px;
   flex-wrap: wrap;
   padding: 35px;
 }
@@ -386,7 +386,7 @@ a {
   background-color: #1c1814;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 5px;
+  margin-left: 10px;
   padding: 35px;
 }
 .slide {
