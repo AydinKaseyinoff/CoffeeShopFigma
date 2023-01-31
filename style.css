@@ -54,19 +54,22 @@ header {
   background-color: #1c1814;
   align-items: center;
   justify-content: space-between;
-}/*Burger Menu start*/
-*, *:before, *:after {
+} /*Burger Menu start*/
+*,
+*:before,
+*:after {
   border: none;
   box-sizing: border-box;
 }
 
-nav{
+nav {
   display: flex;
 }
-nav li{
+nav li {
   margin: 0 1rem;
 }
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -86,7 +89,7 @@ html, body {
 .header__logo {
   display: none;
   flex: 0 0 60px;
-/*следующие две строки: картинка становится круглой*/
+  /*следующие две строки: картинка становится круглой*/
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -95,12 +98,12 @@ html, body {
 
 .header__logo img {
   max-width: 100%;
-/*убирает нижнее подрезание для круглой картинки*/
+  /*убирает нижнее подрезание для круглой картинки*/
   display: block;
 }
 
-.header:before{
-  content: '';
+.header:before {
+  content: "";
   position: absolute;
   background-color: #412f57;
   z-index: 2;
@@ -137,7 +140,7 @@ html, body {
 }
 
 /*классический вариант: @media (max-width:767px), я беру с запасом*/
-@media (max-width:800px) {
+@media (max-width: 800px) {
   body.lock {
     overflow: hidden;
   }
@@ -146,7 +149,7 @@ html, body {
     height: 50px;
   }
 
-  .header__body{
+  .header__body {
     justify-content: space-between;
   }
 
@@ -154,8 +157,8 @@ html, body {
     display: flex;
     flex: 0 0 40px;
   }
-  
-  .logo-no-adaptive{
+
+  .logo-no-adaptive {
     display: none;
   }
   .header__burger {
@@ -178,7 +181,7 @@ html, body {
 
   .header__burger:before,
   .header__burger:after {
-    content: '';
+    content: "";
     background-color: #fff;
     position: absolute;
     width: 100%;
@@ -215,9 +218,9 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-/*для прокрутки меню, когда оно не помещается в экран*/
-    overflow: auto;   
-    background-color: #1c1814f5;;
+    /*для прокрутки меню, когда оно не помещается в экран*/
+    overflow: auto;
+    background-color: #1c1814f5;
     padding: 70px 10px 20px 10px;
     transition: all 0.3s ease 0s;
   }
@@ -243,12 +246,11 @@ html, body {
   padding: 100px 0 0 0;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .content {
     padding: 70px 0 0 0;
   }
 }
-
 
 /*Burger Menu end*/
 ul {
@@ -606,13 +608,10 @@ a {
   flex-wrap: wrap;
 }
 .link {
-<<<<<<< HEAD
   position: relative;
-=======
-  position:relative;
->>>>>>> 35f32a830270f96d9ad17ef0600fe3f9d7e7165e
+  position: relative;
 }
-.link img{
+.link img {
   position: absolute;
   left: 80px;
   top: -4px;
