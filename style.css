@@ -606,11 +606,8 @@ a {
   flex-wrap: wrap;
 }
 .link {
-<<<<<<< HEAD
   position: relative;
-=======
   position:relative;
->>>>>>> 35f32a830270f96d9ad17ef0600fe3f9d7e7165e
 }
 .link img{
   position: absolute;
