@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  transition: all 200ms;
 }
 body {
   margin: 0;
@@ -11,11 +10,11 @@ body {
   max-width: 1250px;
   margin: 0px auto;
 }
-@media (max-width:1899px){
-  .home{
+
+@media (max-width: 1899px) {
+  .home {
     padding-left: 350px;
   }
-
 }
 @media (max-width: 980px) {
   .three-coffee {
@@ -40,7 +39,7 @@ body {
 .white-content {
   color: #fff;
 }
-.machin-img{
+.machin-img {
   padding: 125px;
 }
 span {
@@ -55,62 +54,203 @@ header {
   background-color: #1c1814;
   align-items: center;
   justify-content: space-between;
+}/*Burger Menu start*/
+*, *:before, *:after {
+  border: none;
+  box-sizing: border-box;
 }
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-nav {
+
+nav{
   display: flex;
 }
-.header .navbar a {
-  display: flex;
+nav li{
   margin: 0 1rem;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  transition: all 300ms;
 }
-.header .navbar a:hover {
-  color: #c99e71;
-  border-bottom: 0.1rem solid #c99e71;
-  padding-bottom: 0.5rem;
+html, body {
+  height: 100%;
 }
-.nav-btn {
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.header__logo {
+  display: none;
+  flex: 0 0 60px;
+/*следующие две строки: картинка становится круглой*/
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+
+.header__logo img {
+  max-width: 100%;
+/*убирает нижнее подрезание для круглой картинки*/
+  display: block;
+}
+
+.header:before{
+  content: '';
+  position: absolute;
+  background-color: #412f57;
+  z-index: 2;
+}
+
+.header__body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+}
+
+.header__burger {
   display: none;
 }
-@media screen and (max-width: 1320px) {
-  .nav-btn {
-    font-size: 2em;
-    padding-inline: 10px;
-    padding-bottom: 3px;
-    border: none;
-    background-color: #c99e71;
-    display: block;
-    cursor: pointer;
+
+.header__list {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.header__list li {
+  list-style: none;
+  margin: 0 0 0 20px;
+}
+
+.header__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/*классический вариант: @media (max-width:767px), я беру с запасом*/
+@media (max-width:800px) {
+  body.lock {
+    overflow: hidden;
   }
-  .nav {
+
+  .header__body {
+    height: 50px;
+  }
+
+  .header__body{
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    display: flex;
+    flex: 0 0 40px;
+  }
+  
+  .logo-no-adaptive{
     display: none;
   }
-  .nav-btn:hover .nav {
+  .header__burger {
     display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+
+  .header__burger span {
+    background-color: #fff;
     position: absolute;
-    right: 1px;
-    background-color: rgb(30, 28, 28);
-    box-shadow: 3px 3px 10px black;
-  }
-  #adaptive-logo {
-    margin-left: 0;
-    margin-right: 0;
     width: 100%;
+    height: 2px;
+    left: 0;
+    top: 9px;
+    transition: all 0.3s ease 0s;
   }
-  .navbar {
-    justify-content: space-around;
-    flex-wrap: nowrap;
+
+  .header__burger:before,
+  .header__burger:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__burger:before {
+    top: 0;
+  }
+
+  .header__burger:after {
+    bottom: 0;
+  }
+
+  .header__burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .header__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .header__burger.active span {
+    transform: scale(0);
+  }
+
+  .header__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*для прокрутки меню, когда оно не помещается в экран*/
+    overflow: auto;   
+    background-color: #1c1814f5;;
+    padding: 70px 10px 20px 10px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__menu.active {
+    top: 0;
+  }
+
+  .header__list {
+    display: block;
+  }
+
+  .header__list li {
+    margin: 0 0 20px 0;
+  }
+
+  .header__link {
+    font-size: 24px;
   }
 }
+
+.content {
+  padding: 100px 0 0 0;
+}
+
+@media (max-width:800px) {
+  .content {
+    padding: 70px 0 0 0;
+  }
+}
+
+
+/*Burger Menu end*/
 ul {
   display: flex;
   align-items: center;
@@ -186,8 +326,8 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width:980px){
-  #adaptive-center{
+@media (max-width: 980px) {
+  #adaptive-center {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 0;
@@ -276,7 +416,7 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  .machin-img{
+  .machin-img {
     padding: 0;
   }
   .coffee-content {
@@ -287,20 +427,20 @@ a {
     background-position: right;
   }
 }
-.slide-text{
+.slide-text {
   color: #c99e71;
 }
-@media (max-width:1000px){
-  .coffee-history{
+@media (max-width: 1000px) {
+  .coffee-history {
     flex-direction: column-reverse;
   }
-  .coffee-box{
+  .coffee-box {
     margin-right: 0;
   }
 }
 .menu-flex {
   margin: 0px auto;
-  margin-bottom: 100px ;
+  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -371,7 +511,7 @@ a {
     border: 1px solid #353a35;
     margin-right: 5px;
   }
-  .slide{
+  .slide {
     padding: 20px;
   }
 }
@@ -394,7 +534,7 @@ a {
   margin-top: 20px;
   margin-bottom: 100px;
 }
-.slide-right{
+.slide-right {
   margin-top: 20px;
 }
 .box-content h2 {
@@ -466,7 +606,12 @@ a {
   flex-wrap: wrap;
 }
 .link {
-  align-items: center;
+  position: relative;
+}
+.link img{
+  position: absolute;
+  left: 80px;
+  top: -4px;
 }
 .link a {
   color: #c99e71;
