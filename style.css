@@ -217,9 +217,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     /*для прокрутки меню, когда оно не помещается в экран*/
     overflow: auto;
     background-color: #1c1814f5;
+=======
+    flex-wrap: wrap;
+/*для прокрутки меню, когда оно не помещается в экран*/
+    overflow: auto;   
+    background-color: #1c1814f5;;
+>>>>>>> df80b6d5e7029fea52f2853dd91ed7974cf64546
     padding: 70px 10px 20px 10px;
     transition: all 0.3s ease 0s;
   }
@@ -616,7 +623,11 @@ a {
 }
 .link {
   position: relative;
+<<<<<<< HEAD
   position: relative;
+=======
+  position:relative;
+>>>>>>> df80b6d5e7029fea52f2853dd91ed7974cf64546
 }
 .link img {
   position: absolute;
