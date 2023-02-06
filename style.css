@@ -556,7 +556,7 @@ a {
   height: 100%;
 }
 .map{
-  filter: grayscale(100%) invert(100%);
+  filter: invert(100%);
 }
 .booking-content {
   background-color: #1c1814;
