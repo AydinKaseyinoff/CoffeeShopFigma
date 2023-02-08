@@ -242,12 +242,23 @@ body {
     top: -100%;
     left: 0;
     width: 100%;
+<<<<<<< HEAD
     height: 100%;
     overflow: auto;
     background-color: #1c1814f5;
     flex-wrap: wrap;
     overflow: auto;
     background-color: #1c1814f5;
+=======
+    height: 100%ж
+    /*для прокрутки меню, когда оно не помещается в экран*/
+    overflow: auto;
+    background-color: #1c1814f5;
+    flex-wrap: wrap;
+/*для прокрутки меню, когда оно не помещается в экран*/
+    overflow: auto;   
+    background-color: #1c1814f5;;
+>>>>>>> 42b3fee55529be1e66fd84fb08f75f8fa5ac5ad3
     padding: 70px 10px 20px 10px;
     transition: all 0.3s ease 0s;
   }
@@ -579,6 +590,9 @@ a {
 .booking img {
   width: 100%;
   height: 100%;
+}
+.map{
+  filter: invert(100%);
 }
 .booking-content {
   background-color: #1c1814;
