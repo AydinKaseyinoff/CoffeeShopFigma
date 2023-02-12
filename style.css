@@ -22,7 +22,7 @@ body {
   padding: 0 15px;
 }
 
-@media (min-width: 575.98px){
+@media (min-width: 575.98px) {
   .container {
     max-width: 540px;
     margin: auto;
@@ -30,9 +30,9 @@ body {
   }
 }
 
-@media (min-width: 767.98px){
+@media (min-width: 767.98px) {
   .container {
-    max-width: 720px;	
+    max-width: 720px;
   }
 }
 
@@ -42,7 +42,7 @@ body {
   }
 }
 
-@media (min-width: 1199.98px){
+@media (min-width: 1199.98px) {
   .container {
     max-width: 1140px;
   }
@@ -601,23 +601,37 @@ a {
   margin-top: 20px;
   display: flex;
 }
-.right-button{
+.right-button {
   position: relative;
   left: 27px;
 }
-.left-button{
+.left-button {
   position: relative;
   left: 10px;
 }
-.arrow-left{
+.arrow-left {
   position: relative;
   top: -15px;
   left: -34px;
 }
-.arrow-right{
+.arrow-right {
   position: relative;
   top: -15px;
   left: -12px;
+}
+@media (max-width: 424.8px) {
+  .arrow-right {
+    top: -44px;
+    left: 45px;
+  }
+  .arrow-left {
+    top: -44px;
+    left: 24px;
+  }
+  .under-slider {
+    left: 1px;
+    top: -18px;
+  }
 }
 .box-content h2 {
   font-size: 20px;
