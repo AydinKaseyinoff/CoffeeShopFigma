@@ -19,7 +19,7 @@ body {
   background-color: #14110e;
 }
 .container {
-  padding: 0 15px;
+  padding: 0;
 }
 
 @media (min-width: 575.98px) {
@@ -162,11 +162,16 @@ body {
 .header__list {
   display: flex;
   align-items: center;
-  padding-inline-start: 0;
+  padding-inline-start: 145px;
   position: relative;
   z-index: 2;
 }
-
+.header__menu ul {
+  padding: 35px;
+}
+ul {
+  padding: 0;
+}
 .header__list li {
   list-style: none;
 }
@@ -178,13 +183,13 @@ body {
   font-size: 18px;
   text-decoration: none;
 }
-.header__link:hover {
+li:hover {
   color: #c99e71;
   border-bottom: 0.1rem solid #c99e71;
   padding-bottom: 0.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1075px) {
   body.lock {
     overflow: hidden;
   }
@@ -202,7 +207,7 @@ body {
   }
 
   .header__logo {
-    display: flex;
+    display: block;
     flex: 0 0 40px;
   }
 
@@ -302,7 +307,7 @@ body {
   padding: 100px 0 0 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1075px) {
   .content {
     padding: 70px 0 0 0;
   }
@@ -376,7 +381,7 @@ a {
 }
 .three-coffee {
   display: flex;
-  margin-top: 100px;
+  margin-top: 140px;
   justify-content: space-between;
   align-items: center;
 }
@@ -390,6 +395,7 @@ a {
 }
 .coffee-three {
   margin-bottom: 40px;
+  margin: 5px;
 }
 @media (max-width: 1199px) {
   .coffee-three img {
@@ -403,13 +409,16 @@ a {
 }
 .coffee-history {
   display: flex;
-  padding-top: 115px;
+  padding-top: 140px;
   align-items: center;
   justify-content: center;
 }
 .coffee-line {
   margin-right: 20px;
   max-width: 100%;
+}
+.coffee-product {
+  margin-top: 140px;
 }
 @media (max-width: 637px) {
   .coffee-line {
@@ -421,9 +430,6 @@ a {
 }
 .coffee-box {
   margin-right: 20px;
-}
-.coffee-product {
-  margin-top: 100px;
 }
 .coffee-content {
   background-color: #1c1814;
@@ -437,7 +443,7 @@ a {
 .product {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 56px;
 }
 
 .popular-product {
@@ -451,8 +457,7 @@ a {
 }
 .coffee-machin {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 100px;
+  margin-top: 140px;
 }
 .machin-content {
   background-color: #1c1814;
@@ -486,6 +491,9 @@ a {
     padding: 22px;
   }
 }
+.coffee-menu {
+  margin-top: 140px;
+}
 .slide-text {
   color: #c99e71;
 }
@@ -497,9 +505,11 @@ a {
     margin-right: 0;
   }
 }
+.coffee-customers {
+  margin-top: 140px;
+}
 .menu-flex {
   margin: 0px auto;
-  margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -590,48 +600,14 @@ a {
 }
 .slide {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 100px;
-}
-.under-slider {
-  position: relative;
-  left: -123px;
+  margin-top: 36px;
 }
 .slide-right {
   margin-top: 20px;
   display: flex;
 }
-.right-button {
-  position: relative;
-  left: 27px;
-}
-.left-button {
-  position: relative;
-  left: 10px;
-}
-.arrow-left {
-  position: relative;
-  top: -15px;
-  left: -34px;
-}
-.arrow-right {
-  position: relative;
-  top: -15px;
-  left: -12px;
-}
-@media (max-width: 424.8px) {
-  .arrow-right {
-    top: -44px;
-    left: 45px;
-  }
-  .arrow-left {
-    top: -44px;
-    left: 24px;
-  }
-  .under-slider {
-    left: 1px;
-    top: -18px;
-  }
+.button-left {
+  margin-right: 16px;
 }
 .box-content h2 {
   font-size: 20px;
@@ -639,17 +615,13 @@ a {
 .booking {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-top: 140px;
 }
 @media (max-width: 1300px) {
   .booking {
     flex-wrap: wrap;
     margin: 20px;
   }
-}
-.booking img {
-  width: 100%;
-  height: 100%;
 }
 .map {
   filter: invert(100%);
@@ -675,6 +647,9 @@ a {
   color: #fff;
   font-size: 18px;
 }
+.coffee-news {
+  margin-top: 140px;
+}
 .news {
   margin-bottom: 20px;
 }
@@ -690,12 +665,14 @@ a {
 .news-box {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
   align-items: center;
 }
 .news-content {
   background-color: #1c1814;
   padding: 20px;
+}
+.footer {
+  margin-top: 140px;
 }
 .footer-navbar {
   display: flex;
@@ -715,7 +692,9 @@ a {
   padding-bottom: 0.5rem;
 }
 .under {
+  display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 .link {
   position: relative;
